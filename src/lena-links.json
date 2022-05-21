@@ -8,42 +8,42 @@
     {
       "name": "facebook",
       "href": "https://www.facebook.com/lenazerlav/",
-      "image": "/src/assets/images/facebook.svg"
+      "image": "/images/facebook.svg"
     },
     {
       "name": "twitter",
       "href": "https://twitter.com/lenazerlav/",
-      "image": "/src/assets/images/twitter.svg"
+      "image": "/images/twitter.svg"
     },
     {
       "name": "instagram",
       "href": "https://instagram.com/lenazerlav/",
-      "image": "/src/assets/images/insta.svg"
+      "image": "/images/insta.svg"
     },
     {
       "name": "deviantart",
       "href": "https://www.deviantart.com/lenazerlav/",
-      "image": "/src/assets/images/deviant.svg"
+      "image": "/images/deviant.svg"
     },
     {
       "name": "pinterest",
       "href": "https://www.pinterest.com/lenazerlav/",
-      "image": "/src/assets/images/pint.svg"
+      "image": "/images/pint.svg"
     },
     {
       "name": "society6",
       "href": "https://society6.com/lenazerlav/",
-      "image": "/src/assets/images/six.svg"
+      "image": "/images/six.svg"
     },
     {
       "name": "red Bubble",
       "href": "https://www.redbubble.com/people/lenazerlav/",
-      "image": "/src/assets/images/rb.svg"
+      "image": "/images/rb.svg"
     },
     {
       "name": "ko-fi",
       "href": "https://ko-fi.com/lenazerlav/",
-      "image": "/src/assets/images/coffee.svg"
+      "image": "/images/coffee.svg"
     }
   ]
 }
