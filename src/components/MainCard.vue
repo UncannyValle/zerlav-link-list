@@ -8,7 +8,11 @@
     >
     <ul class="link-list">
       <li v-for="link in links" :key="link.name">
-        <a :href="link.href" class="links"
+        <a
+          :href="link.href"
+          class="links"
+          target="_blank"
+          rel="noreferrer noopener"
           >{{ link.name }}
           <img
             :src="link.image"
