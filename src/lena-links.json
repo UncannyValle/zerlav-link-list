@@ -1,34 +1,49 @@
-[
-  {
-    "name": "facebook",
-    "href": "https://www.facebook.com/lenazerlav/"
-  },
-  {
-    "name": "twitter",
-    "href": "https://twitter.com/lenazerlav/"
-  },
-  {
-    "name": "instagram",
-    "href": "https://instagram.com/lenazerlav/"
-  },
-  {
-    "name": "deviantart",
-    "href": "https://www.deviantart.com/lenazerlav/"
-  },
-  {
-    "name": "pinterest",
-    "href": "https://www.pinterest.com/lenazerlav/"
-  },
-  {
-    "name": "society6",
-    "href": "https://society6.com/lenazerlav/"
-  },
-  {
-    "name": "red Bubble",
-    "href": "https://www.redbubble.com/people/lenazerlav/"
-  },
-  {
-    "name": "ko-fi",
-    "href": "https://ko-fi.com/lenazerlav/"
-  }
-]
+{
+  "name": "Lorena Alvarez",
+  "handle": "@lenazerlav",
+  "description": "Concept Artist & Illustrator",
+  "email": "lenazerlavart@gmail.com",
+
+  "links": [
+    {
+      "name": "facebook",
+      "href": "https://www.facebook.com/lenazerlav/",
+      "image": "/src/assets/images/facebook.svg"
+    },
+    {
+      "name": "twitter",
+      "href": "https://twitter.com/lenazerlav/",
+      "image": "/src/assets/images/twitter.svg"
+    },
+    {
+      "name": "instagram",
+      "href": "https://instagram.com/lenazerlav/",
+      "image": "/src/assets/images/insta.svg"
+    },
+    {
+      "name": "deviantart",
+      "href": "https://www.deviantart.com/lenazerlav/",
+      "image": "/src/assets/images/deviant.svg"
+    },
+    {
+      "name": "pinterest",
+      "href": "https://www.pinterest.com/lenazerlav/",
+      "image": "/src/assets/images/pint.svg"
+    },
+    {
+      "name": "society6",
+      "href": "https://society6.com/lenazerlav/",
+      "image": "/src/assets/images/six.svg"
+    },
+    {
+      "name": "red Bubble",
+      "href": "https://www.redbubble.com/people/lenazerlav/",
+      "image": "/src/assets/images/rb.svg"
+    },
+    {
+      "name": "ko-fi",
+      "href": "https://ko-fi.com/lenazerlav/",
+      "image": "/src/assets/images/coffee.svg"
+    }
+  ]
+}

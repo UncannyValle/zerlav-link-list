@@ -1,21 +1,39 @@
 <template>
   <div class="card">
     <img :src="props.selfieImage" alt="selfie" class="selfie-image" />
-    <h1>{{ handle }}</h1>
+    <h1>{{ props.info.handle }}</h1>
+    <p>{{ props.info.description }}</p>
+    <a :href="`mailto:${props.info.email}`" class="email"
+      >Contact: {{ props.info.email }}</a
+    >
     <ul class="link-list">
-      <li v-for="link in links">
-        <a :href="link.href" class="links">{{ link.name }}</a>
+      <li v-for="link in links" :key="link.name">
+        <a :href="link.href" class="links"
+          >{{ link.name }}
+          <img
+            :src="link.image"
+            :alt="link.name"
+            class="icon"
+            :class="isFacebook(link.name)"
+          />
+        </a>
       </li>
     </ul>
   </div>
 </template>
 
 <script setup lang="ts">
-const props = defineProps({
-  selfieImage: String,
-  handle: String,
-  links: Object,
-});
+const props = defineProps<{
+  selfieImage: string;
+  info: any;
+  links: any;
+}>();
+
+const isFacebook = (link: string) => {
+  if (link === 'facebook') {
+    return 'facebook';
+  }
+};
 </script>
 
 <style lang="scss" scoped>
@@ -50,10 +68,35 @@ const props = defineProps({
   color: white;
   padding: 0 1.5rem;
   text-transform: uppercase;
-  transition: ease-in all .2s;
+  transition: ease-in all 0.2s;
   &:hover {
     background-color: lightskyblue;
     color: black;
+  }
+}
+.email {
+  color: white;
+  position: relative;
+  transition: 0.2s ease-in all;
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background-color: white;
+    width: 0%;
+  }
+
+  &:hover {
+    width: 100%;
+  }
+}
+.icon {
+  width: 1.5rem;
+  &.facebook {
+    width: 1rem;
   }
 }
 </style>
